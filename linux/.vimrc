@@ -101,3 +101,6 @@ Plugin 'vim-airline/vim-airline-themes'
 
 call vundle#end()
 filetype plugin indent on 
+
+" 配置插件airline
+let g:airline_theme="molokai" 
