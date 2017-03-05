@@ -88,3 +88,16 @@ if has("gui_running")
     imap <C-S>  <ESC>:w<CR>
     map  <C-S>  :w<CR>
 endif
+
+" vundle配置
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'  " 必须的
+
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+call vundle#end()
+filetype plugin indent on 

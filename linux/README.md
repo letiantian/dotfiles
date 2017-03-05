@@ -21,3 +21,12 @@ sh install.sh
 * https://github.com/gmarik/vundle.git
 * https://github.com/vim-airline/vim-airline
 * https://github.com/powerline/powerline
+
+安装vundle:
+```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+配置好Plugin后,运行下面命令安装:
+```
+vim +PluginInstall +qall
+```
