@@ -17,3 +17,7 @@ sh install.sh
 
 主题在[https://github.com/robbyrussell/oh-my-zsh/wiki/themes](https://github.com/robbyrussell/oh-my-zsh/wiki/themes), avit和bira不错.
 
+## 配置vim
+* https://github.com/gmarik/vundle.git
+* https://github.com/vim-airline/vim-airline
+* https://github.com/powerline/powerline

@@ -16,3 +16,8 @@ if [ -f ~/.bashrc ]; then
 fi
 ln -s ~/.dotfiles/linux/.bashrc ~/.bashrc
 
+# vimrc
+if [ -f ~/.vimrc ]; then
+    rm ~/.vimrc
+fi
+ln -s ~/.dotfiles/linux/.vimrc ~/.vimrc
