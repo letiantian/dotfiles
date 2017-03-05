@@ -129,3 +129,8 @@ if [ -f ~/.bash_env ]; then
     . ~/.bash_env
 fi
 
+# PS1
+if [ -f ~/.bash_ps1 ]; then
+    . ~/.bash_ps1
+fi
+
