@@ -124,6 +124,9 @@ if [ -x /usr/bin/mint-fortune ]; then
      /usr/bin/mint-fortune
 fi
 
+# git-prompt
+. ~/.dotfiles/linux/.git-prompt.sh
+
 # ENV
 if [ -f ~/.bash_env ]; then
     . ~/.bash_env
