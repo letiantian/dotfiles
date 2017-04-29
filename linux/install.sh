@@ -10,6 +10,9 @@ if [ -f ~/.bash_ps1 ]; then
 fi
 ln -s ~/.dotfiles/linux/.bash_ps1 ~/.bash_ps1
 
+# bah env
+touch ~/.bash_env
+
 # bashrc
 if [ -f ~/.bashrc ]; then
     rm ~/.bashrc

@@ -13,9 +13,16 @@ sh install.sh
 
 
 ## 配置zsh
+
 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
 主题在[https://github.com/robbyrussell/oh-my-zsh/wiki/themes](https://github.com/robbyrussell/oh-my-zsh/wiki/themes), avit和bira不错.
+
+```
+sudo apt-get install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh patch_zsh.sh
+```
 
 ## 配置vim
 * https://github.com/gmarik/vundle.git
